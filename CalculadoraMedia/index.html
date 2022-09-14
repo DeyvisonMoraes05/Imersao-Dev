@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <title>Calculadora de Médias Escolares</title>
 </head>
 
 <body>
-
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora de média</h1>
+        <p class="page-subtitle">
+            Descubra qual a sua média de nota de todos os bimestres letivos.
+        </p>
+    </div>
+    <section>
+        <div>
+            <label for="notaPrimeiroBimestre">Nota do Primeiro Bimestre</label>
+            <input type="number" id="notaPrimeiroBimestre" name="notaPrimeiroBimestre" min="0" max="10">
+            <br>
+            <label for="notaSegundoBimestre">Nota do Segundo Bimestre</label>
+            <input type="number" id="notaSegundoBimestre" name="notaSegundoBimestre" min="0" max="10">
+            <br>
+            <label for="notaTerceiroBimestre">Nota do Terceiro Bimestre</label>
+            <input type="number" id="notaTerceiroBimestre" name="notaTerceiroBimestre" min="0" max="10">
+            <br>
+            <label for="notaQuartoBimestre">Nota do Quarto Bimestre</label>
+            <input type="number" id="notaQuartoBimestre" name="notaQuartoBimestre" min="0" max="10">
+            <br>
+            <input type="button" value="Calcular Média" onclick="media()">
+            <br>
+        </div>
+        <div id="resultado">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; DEV_DeyvisonMoraes</p>
+    </footer>
 </body>
 
 </html>
