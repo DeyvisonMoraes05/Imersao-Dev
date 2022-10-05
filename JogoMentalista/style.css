@@ -26,7 +26,8 @@ body {
 
 .page-subtitle-warning {
     color: #2210e5;
-    margin-top: 60px;
+    margin-top: 16px;
+    font-size: 40px;
 }
 
 @media (max-height: 500px) {
