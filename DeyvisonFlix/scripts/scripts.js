@@ -6,7 +6,7 @@ var listaFilmes = [
     `./images/${"5ordem.jpg"}`,
     `./images/${"6enigma.jpg"}`,
     `./images/${"7.0reliquias1.jpg"}`,
-    `./images/${"7.1reliquias2.jpg"}`
+    `./images/${"7.1reliquias2.jpg"}`,
 ]
 
 for (var i = 0; i < listaFilmes.length; i++) {
